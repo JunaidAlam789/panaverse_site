@@ -4,17 +4,9 @@ import {
   Box,
   Image,
   Flex,
-  Avatar,
   HStack,
   Link,
-  IconButton,
   Button,
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
-  useDisclosure,
   useColorModeValue,
   Stack,
   Container,
@@ -23,7 +15,7 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
 
 const Links = ['Dashboard', 'Projects', 'Team'];
 
-const NavLink = ({ children }: { children: ReactNode }) => (
+/* const NavLink = ({ children }: { children: ReactNode }) => (
   <Link
     px={2}
     py={1}
@@ -35,7 +27,7 @@ const NavLink = ({ children }: { children: ReactNode }) => (
     href={'#'}>
     {children}
   </Link>
-);
+); */
 
 export default function NavBar() {
 
@@ -49,7 +41,7 @@ export default function NavBar() {
           <Flex>
           <Image src="./panaverse80_80.jpg" h={{sm:"20px",md:"40px"}} m={2}></Image>
           </Flex>
-          <HStack mx="100" >
+          <HStack mx="100" spacing={16}>
           <Link>Home</Link>
           <Link>Docs</Link>
           <Link>Future</Link>
