@@ -8,7 +8,8 @@ import {
     Button,
     Icon,
     IconProps,
-    Image
+    Image,
+    Box
   } from '@chakra-ui/react';
   
   export default function Metaverse() {
@@ -28,7 +29,15 @@ import {
            <Stack direction={'column'}>
            <Text color={'Grey.500'} fontWeight={600} 
             fontSize={{ base: '2xl', sm: '2xl', md: '2xl' }}>
-            What is Metaverse ?</Text>  
+            What is Metaverse ?</Text> 
+          <Box
+           p='40px'
+           color={'Grey.500'}
+           mt='4'
+           bg={'whiteAlpha.500'}
+           rounded='md'
+           shadow='md'
+           w='400px'>
           <Text color={'Grey.500'} maxW={'3xl'}>
           
 A communal environment or virtual world made possible by the fusion of physical and virtual reality is referred to as the "metaverse." Users can engage in shared interactions with a wide range of virtual objects and environments in this imagined networked virtual world. Various technology businesses are aggressively pursuing the science fiction idea of a metaverse in an effort to give users a seamless and immersive experience.
@@ -43,6 +52,7 @@ Object-Oriented Programming and cutting-edge Full-Stack Web 2.0 development
 
 The graduates of this program will own products (Full-Stack App Templates, AR and VR Experiences, and APIs)
           </Text>
+          </Box> 
           </Stack>
                     
         </Stack>

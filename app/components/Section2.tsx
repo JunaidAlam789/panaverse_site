@@ -16,10 +16,12 @@ import {
     return (
       <Box py={{ base: 12, sm:12,  md: 16 }}
            px={{ base: 4, sm:4,  md: 8 }}
-           border={'thick'}
-           borderColor={'red.500'}
+            border={'thick'}
+           borderColor={'whiteAlpha.500'}
            borderStyle={'solid'}
-           rounded={'full'}
+           bg={'whiteAlpha.500'}
+           rounded={'md'}
+           shadow={'md'}
            m={{ base: 2, sm:2,  md: 8 }}>
       <Container maxW={'5xl'} rounded={'full'} >
         <Stack

@@ -34,10 +34,12 @@ export default function NavBar() {
 
   return (
     <>
-      <Container maxW={'6xl'}
+       <Box maxW={'6xl'}
       bg={useColorModeValue('gray.50', 'gray.900')}
-      color={useColorModeValue('gray.700', 'gray.200')}>
-        <Flex justify={"space-between"}>
+      color={useColorModeValue('gray.700', 'gray.200')}> 
+      
+      
+        <Flex justify={"space-between"} >
           <Flex>
           <Image src="./panaverse80_80.jpg" h={{sm:"20px",md:"40px"}} m={2}></Image>
           </Flex>
@@ -49,15 +51,15 @@ export default function NavBar() {
         
 
         <HStack>
-          <Button rounded={'full'} px={6}>
+          <Button rounded={'full'} px={2}>
             <Link  href={'https://portal.piaic.org/signup'}>Apply Now
             </Link>
             </Button>
         </HStack>
         </Flex>
         
-
-        </Container>
+      </Box>
+        
 
       
     </>

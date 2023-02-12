@@ -6,6 +6,7 @@ import Main_Section from './components/Main_Section'
 import Section2 from './components/Section2'
 import Metaverse from './components/Metaverse'
 import Footer from './components/Footer'
+import SlideEx from './components/Slide'
 
 const inter = Inter({ subsets: ['latin'] })
 
